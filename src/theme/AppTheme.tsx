@@ -4,11 +4,11 @@ export const styles = StyleSheet.create({
   fondo: {
     flex: 1,
     backgroundColor: '#000000',
-    padding: 20
+    padding: 10
 
   },
   calculadoraContainer: {
-    paddingHorizontal: 20,
+    paddingHorizontal: 0,
     flex: 1,
     justifyContent: 'flex-end'
   },
@@ -16,8 +16,8 @@ export const styles = StyleSheet.create({
     color: 'white',
     fontSize: 60,
     textAlign: 'right',
-    fontWeight: 'bold'
-
+    fontWeight: 'bold',
+    marginBottom: 10
   },
   resultadopequeno: {
     color: 'rgba(255,255,255,0.5)',
@@ -31,7 +31,14 @@ export const styles = StyleSheet.create({
     width: 80,
     backgroundColor: '#9B9B9B',
     borderRadius: 100,
-    justifyContent: 'center'
+    justifyContent: 'center',
+    marginHorizontal: 10
+  },
+  fila: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    marginBottom: 18,
+    paddingHorizontal: 10
   },
 
   botonTexto: {
